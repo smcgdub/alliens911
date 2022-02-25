@@ -50,3 +50,8 @@ body {
 #ufo_search_button_image {
   height: 40px !important;
 }
+
+#github_link {
+  text-decoration: none;
+  color: black;
+}
