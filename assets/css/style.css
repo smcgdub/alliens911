@@ -9,6 +9,12 @@ body {
   font-family: 'Montserrat Alternates', sans-serif;
 }
 
+.nav-link:hover {
+  background-color: #59656F;
+  border-radius: 5px;
+  color: #fff !important;
+}
+
 /* Hero Image */
 #hero_image {
   background-image: url(/assets/images/i_want_to_Believe_1.jpg);
@@ -22,13 +28,22 @@ body {
   padding-top: 80px;
 }
 
+/* Location Search & Password Input  */
+/* #location_search_input,
+#password_search_input {
+  background-color: #59656F;
+  color: #fff;
+} */
+
 /* Alien Head */
 #alien_head {
   height: 25px !important;
 }
 
 #ufo_search_button:hover {
-  background-color: #29BF12;
+  /* background-color: #29BF12; */
+  background-color: #59656F;
+  color: #fff !important;
 }
 
 /* UFO Search Button Image*/
