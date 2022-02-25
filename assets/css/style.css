@@ -8,3 +8,15 @@
 body {
   font-family: 'Montserrat Alternates', sans-serif;
 }
+
+#hero_image {
+  background-image: url(/assets/images/i_want_to_Believe_1.jpg);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 80px;
+}
