@@ -10,9 +10,9 @@ body {
 }
 
 .nav-link:hover {
-  background-color: #59656F;
+  /* background-color: #59656F;
   border-radius: 5px;
-  color: #fff !important;
+  color: #fff !important; */
 }
 
 /* Hero Image */
