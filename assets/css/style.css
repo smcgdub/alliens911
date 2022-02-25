@@ -9,6 +9,7 @@ body {
   font-family: 'Montserrat Alternates', sans-serif;
 }
 
+/* Hero Image */
 #hero_image {
   background-image: url(/assets/images/i_want_to_Believe_1.jpg);
   height: 100vh;
@@ -19,4 +20,18 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 80px;
+}
+
+/* Alien Head */
+#alien_head {
+  height: 25px !important;
+}
+
+#ufo_search_button:hover {
+  background-color: #29BF12;
+}
+
+/* UFO Search Button Image*/
+#ufo_search_button_image {
+  height: 40px !important;
 }
