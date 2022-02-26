@@ -11,6 +11,8 @@ body {
   overflow-x: hidden;
 }
 
+/* Navlink Animation Effect */
+/* Code credit goes to - https://www.30secondsofcode.org/css/s/hover-underline-animation */
 .hover-underline-animation {
   display: inline-block;
   position: relative;
@@ -27,19 +29,12 @@ body {
   left: 0;
   background-color: rgba(0, 0, 0, .55);
   transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
+  transition: transform 0.50s ease-out;
 }
 
 .hover-underline-animation:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
-}
-
-.nav-link:hover {
-  /* background-color: #59656F;
-  border-radius: 5px;
-  color: #fff !important; */
-  /* text-decoration: underline; */
 }
 
 /* Hero Image Index.html Page*/
@@ -71,9 +66,7 @@ body {
   height: 40px !important;
 }
 
-
 /* About Us Page */
-
 /* Hero Image */
 #hero_image_about_us {
   background-image: url(/assets/images/about_us.jpg);
