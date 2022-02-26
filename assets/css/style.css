@@ -11,6 +11,10 @@ body {
   overflow-x: hidden;
 }
 
+.nav-link {
+  font-size: 18px;
+}
+
 /* Navlink Animation Effect */
 /* Code credit goes to - https://www.30secondsofcode.org/css/s/hover-underline-animation */
 .hover-underline-animation {
@@ -53,13 +57,14 @@ body {
 #ufo_search_button {
   /* background-color: #29BF12; */
   background-color: #59656F;
+  background-color: transparent;
   color: #fff !important;
 }
 
 #ufo_search_button:hover {
   /* background-color: #29BF12; */
-  background-color: #59656F;
-  color: #fff !important;
+  background-color: #fff;
+  color: #000 !important;
 }
 
 /* UFO Search Button Image*/
@@ -106,17 +111,13 @@ body {
 
 #ufo_search_content {
   padding-bottom: 25% !important;
-  /* padding-top: 80px; */
+  padding-top: 80px;
 }
 
 /* Photo gallery page */
 /* Navbar Padding */
 #photo_gallery_section {
   padding-top: 80px;
-}
-
-.img-thumbnail {
-  height: 200px;
 }
 
 /* Contact Us Page */
