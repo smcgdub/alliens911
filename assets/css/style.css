@@ -105,3 +105,8 @@ body {
   color: black;
   font-size: 20px;
 }
+
+/* UFO Footage Page */
+#video_footage_section {
+  padding-top: 80px;
+}
