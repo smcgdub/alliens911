@@ -50,6 +50,12 @@ body {
   padding-top: 80px;
 }
 
+#ufo_search_button {
+  /* background-color: #29BF12; */
+  background-color: #59656F;
+  color: #fff !important;
+}
+
 #ufo_search_button:hover {
   /* background-color: #29BF12; */
   background-color: #59656F;
@@ -77,7 +83,7 @@ body {
 
 #about_us_content {
   padding-bottom: 30% !important;
-  padding-top: 80px;
+  /* padding-top: 80px; */
 }
 
 #about_us_text {
@@ -111,6 +117,24 @@ body {
 
 .img-thumbnail {
   height: 200px;
+}
+
+/* Contact Us Page */
+/* Hero Image Contact Us Page*/
+#hero_image_contact_us {
+  background-image: url(/assets/images/contact_us_new.jpg);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* padding-top: 80px; */
+}
+
+#contact_us_send_button {
+  background-color: #fff;
 }
 
 /* Footer */
