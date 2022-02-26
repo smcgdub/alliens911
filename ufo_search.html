@@ -6,6 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -42,19 +49,50 @@
 
   <!-- Hero Image -->
   <section id="hero_image_ufo_search" class="">
-    <div class="row">
-      <div class="col-12">
-        <!-- Background Image Inserted Here -->
-        <!-- UFO Search Section -->
-        <section id="contact_us_section">
-          <div class="container">
-            <div class="row">
-              <div class="col-12">
-
+    <div class="container">
+      <div class="row">
+        <div id="ufo_search_content" class="col-12">
+          <!-- Background Image Inserted Here -->
+          <!-- UFO Search Section -->
+          <h3 class="text-white text-center">- Search For Aliens -</h3>
+          <br>
+          <!-- <p class="text-white text-center mb-5">
+            It's SO simple now to find British UFO sighting locations, just type in a British Place-Name, Postcode,
+            Co-ordinate or Country in the form below and see for yourself whether there have been any extraterrestrial
+            visitations reported in your area!
+          </p> -->
+          <!-- Search Form -->
+          <form id="search_form" class="" action="">
+            <!-- Search Input -->
+            <div class="mb-3">
+              <label for="location_search_input" class="form-label text-white">- Alien 911 Search -</label>
+              <input type="text" class="form-control" id="location_search_input" aria-describedby="" autocomplete="">
+              <div id="search_input_helper_text" class="form-text text-white"><em>To find the locations of UFO
+                  sightings, please type in a British place name, postcode or co-ordinate.</em>
               </div>
             </div>
-          </div>
-        </section>
+            <br>
+            <!-- Password Input -->
+            <div class="mb-3">
+              <label for="password_search_input" class="form-label text-white">- Password -</label>
+              <input type="password" class="form-control" id="password_search_input" autocomplete="current-password">
+              <div id="search_input_helper_text" class="form-text text-white">
+                <em>
+                  Non-Members: Leave the box below blank and press the Search button.
+                </em>
+              </div>
+              <div id="search_input_helper_text_2" class="form-text text-white">
+                <em>
+                  ARCHI Members: Please enter your password to view site maps and GPS co-ordinates.
+                </em>
+              </div>
+            </div>
+            <!-- Search Button -->
+            <button id="ufo_search_button" type="submit" class="btn search_button ps-0">Search
+              <img id="ufo_search_button_image" src="/assets/images/ufo.png" alt="">
+            </button>
+          </form>
+        </div>
       </div>
     </div>
   </section>
@@ -69,8 +107,8 @@
     <div class="container">
       <div class="row">
         <div class="col-12 text-center">
-          <p class="mb-1">- Website developed By Stephen Mc Govern <a id="github_link" href="https://github.com/smcgdub"
-              target="_blank"><i class="fab fa-github"></i></a> - </p>
+          <p class="mb-1">- Website developed By Stephen Mc Govern | Guthub <a id="github_link"
+              href="https://github.com/smcgdub" target="_blank"><i class="fab fa-github"></i></a> - </p>
           <p class="">- Copyright© 2022 ARCHI Information Systems | All rights reserved -</p>
         </div>
       </div>

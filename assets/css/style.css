@@ -50,11 +50,6 @@ body {
   padding-top: 80px;
 }
 
-/* Alien Head */
-/* #alien_head {
-  height: 25px !important;
-} */
-
 #ufo_search_button:hover {
   /* background-color: #29BF12; */
   background-color: #59656F;
@@ -87,6 +82,25 @@ body {
 
 #about_us_text {
   font-size: 20px;
+}
+
+/* UFO Search Page*/
+/* Hero Image UFO Search Page*/
+#hero_image_ufo_search {
+  background-image: url(/assets/images/ufo_search.jpg);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* padding-top: 80px; */
+}
+
+#ufo_search_content {
+  padding-bottom: 25% !important;
+  /* padding-top: 80px; */
 }
 
 /* Photo gallery page */
