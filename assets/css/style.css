@@ -89,6 +89,16 @@ body {
   font-size: 20px;
 }
 
+/* Photo gallery page */
+/* Navbar Padding */
+#photo_gallery_section {
+  padding-top: 80px;
+}
+
+.img-thumbnail {
+  height: 200px;
+}
+
 /* Footer */
 #github_link {
   text-decoration: none;
