@@ -9,13 +9,13 @@ body {
   font-family: 'Montserrat Alternates', sans-serif;
 }
 
-.nav-link:hover {
-  /* background-color: #59656F;
+/* .nav-link:hover {
+  background-color: #59656F;
   border-radius: 5px;
-  color: #fff !important; */
-}
+  color: #fff !important;
+} */
 
-/* Hero Image */
+/* Hero Image Index.html Page*/
 #hero_image {
   background-image: url(/assets/images/i_want_to_Believe_1.jpg);
   height: 100vh;
@@ -28,17 +28,10 @@ body {
   padding-top: 80px;
 }
 
-/* Location Search & Password Input  */
-/* #location_search_input,
-#password_search_input {
-  background-color: #59656F;
-  color: #fff;
-} */
-
 /* Alien Head */
-#alien_head {
+/* #alien_head {
   height: 25px !important;
-}
+} */
 
 #ufo_search_button:hover {
   /* background-color: #29BF12; */
@@ -51,7 +44,33 @@ body {
   height: 40px !important;
 }
 
+
+/* About Us Page */
+
+/* Hero Image */
+#hero_image_about_us {
+  background-image: url(/assets/images/about_us.jpg);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 80px;
+}
+
+#about_us_content {
+  padding-bottom: 30% !important;
+}
+
+#about_us_text {
+  font-size: 20px;
+}
+
+/* Footer */
 #github_link {
   text-decoration: none;
   color: black;
+  font-size: 20px;
 }
