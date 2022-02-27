@@ -114,6 +114,15 @@ body {
   padding-top: 80px;
 }
 
+/* Search Results Page */
+#search_results_section {
+  padding-top: 80px !important;
+}
+
+#donate_img {
+  width: 20px !important;
+}
+
 /* Photo gallery page */
 /* Navbar Padding */
 #photo_gallery_section {
