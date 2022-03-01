@@ -115,6 +115,23 @@ body {
 }
 
 /* Search Results Page */
+/* Hero Image */
+/* #search_results_section {
+  background-image: url(/assets/images/search_ufo_page.jpg);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+/* td,
+tr {
+  color: #fff;
+} */
+
 #search_results_section {
   padding-top: 80px !important;
 }
