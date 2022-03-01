@@ -115,29 +115,27 @@ body {
 }
 
 /* Search Results Page */
-/* Hero Image */
-/* #search_results_section {
-  background-image: url(/assets/images/search_ufo_page.jpg);
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
-
-/* td,
-tr {
-  color: #fff;
-} */
-
 #search_results_section {
   padding-top: 80px !important;
 }
 
 #donate_img {
   width: 20px !important;
+}
+
+/* UFO Footage Page */
+/* Video Player */
+#my-video {
+  width: 100%;
+  font-size: 12px;
+}
+
+/* Video Play Button */
+.vjs-big-play-button {
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%) !important;
+  width: 4rem !important;
 }
 
 /* Photo gallery page */
