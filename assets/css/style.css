@@ -144,41 +144,6 @@ body {
   padding-top: 80px;
 }
 
-/* Contact Us Page */
-/* Hero Image Contact Us Page*/
-#hero_image_contact_us {
-  background-image: url(/assets/images/contact_us_new.jpg);
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* padding-top: 80px; */
-}
-
-#contact_us_send_button {
-  background-color: #fff;
-}
-
-/* Footer */
-#github_link {
-  text-decoration: none;
-  color: black;
-  font-size: 20px;
-}
-
-/* UFO Footage Page */
-#video_footage_section {
-  padding-top: 80px;
-}
-
-
-
-
-
-/* CSS Document */
 .gallery-block {
   padding-bottom: 60px;
   padding-top: 60px;
@@ -235,4 +200,34 @@ body {
     transform: translateY(-10px) scale(1.02);
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important;
   }
+}
+
+/* Contact Us Page */
+/* Hero Image Contact Us Page*/
+#hero_image_contact_us {
+  background-image: url(/assets/images/contact_us_new.jpg);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* padding-top: 80px; */
+}
+
+#contact_us_send_button {
+  background-color: #fff;
+}
+
+/* Footer */
+#github_link {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+/* UFO Footage Page */
+#video_footage_section {
+  padding-top: 80px;
 }
