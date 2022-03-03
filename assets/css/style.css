@@ -157,8 +157,8 @@ body {
 }
 
 /* UFO photo page */
-/* #ufo_image_section {
-  background-image: url(/assets/images/ufo_images_background.jpg);
+#ufo_image_section {
+  background-image: url(/assets/images/ufo_images_background_2.jpg);
   width: 100vw;
   display: flex;
   align-items: center;
@@ -166,7 +166,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-} */
+}
 
 /* Navbar Padding */
 #photo_gallery_section {
