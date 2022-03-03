@@ -128,17 +128,46 @@ body {
 #my-video {
   width: 100%;
   font-size: 12px;
+  height: 375px;
+}
+
+#my-video:hover {
+  border: 1px solid white;
 }
 
 /* Video Play Button */
 .vjs-big-play-button {
-  top: 50% !important;
+  top: 45% !important;
   left: 50% !important;
   transform: translate(-50%) !important;
   width: 4rem !important;
 }
 
-/* Photo gallery page */
+#video_footage_section {
+  padding-top: 80px;
+  background-image: url(/assets/images/ufo_video_background.jpg);
+  /* height: 100vh; */
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* UFO photo page */
+/* #ufo_image_section {
+  background-image: url(/assets/images/ufo_images_background.jpg);
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
 /* Navbar Padding */
 #photo_gallery_section {
   padding-top: 80px;
@@ -225,9 +254,4 @@ body {
   text-decoration: none;
   color: black;
   font-size: 20px;
-}
-
-/* UFO Footage Page */
-#video_footage_section {
-  padding-top: 80px;
 }
