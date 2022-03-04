@@ -31,7 +31,8 @@
 
 <body>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top"> -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
     <div class="container">
       <a class="navbar-brand" href="index.html">Aliens 911</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -40,12 +41,12 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ms-auto">
-          <a class="nav-link ms-auto hover-underline-animation" href="about_us.html">About Us</a>
-          <a class="nav-link ms-auto hover-underline-animation" href="ufo_search.html">UFO Search</a>
-          <a class="nav-link ms-auto hover-underline-animation" href="ufo_footage.html">UFO Footage</a>
-          <a class="nav-link ms-auto hover-underline-animation" href="ufo_images.html">UFO Images</a>
-          <a class="nav-link ms-auto hover-underline-animation" href="ufo_reports.html">UFO Reports</a>
-          <a class="nav-link ms-auto hover-underline-animation" href="contact_us.html">Contact Us</a>
+          <a class="nav-link nav-link-footage ms-auto hover-underline-animation" href="about_us.html">About Us</a>
+          <a class="nav-link nav-link-footage ms-auto hover-underline-animation" href="ufo_search.html">UFO Search</a>
+          <a class="nav-link nav-link-footage ms-auto hover-underline-animation" href="ufo_footage.html">UFO Footage</a>
+          <a class="nav-link nav-link-footage ms-auto hover-underline-animation" href="ufo_images.html">UFO Images</a>
+          <a class="nav-link nav-link-footage ms-auto hover-underline-animation" href="ufo_reports.html">UFO Reports</a>
+          <a class="nav-link nav-link-footage ms-auto hover-underline-animation" href="contact_us.html">Contact Us</a>
         </div>
       </div>
     </div>
@@ -217,9 +218,17 @@
 
   <br>
 
+  <!-- JS for navbar background colour change -->
+  <script>
+    $(function () {
+      $(document).scroll(function () {
+        var $nav = $(".fixed-top");
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+      });
+    });
+  </script>
   <!-- Video JS CDN -->
   <script src="https://vjs.zencdn.net/7.17.0/video.min.js"></script>
-  <!-- Optional JavaScript; choose one of the two! -->
   <!-- Option 1: Bootstrap Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">

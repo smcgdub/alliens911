@@ -269,7 +269,8 @@ body {
 /* CSS JS for navbar background colour change */
 /* About Us Navlink font colour on scroll */
 .nav-link-about,
-.nav-link-search {
+.nav-link-search,
+.nav-link-footage {
   color: #fff !important;
 }
 
