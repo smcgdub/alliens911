@@ -266,6 +266,11 @@ body {
 
 
 
+/* CSS JS for navbar background colour change */
+/* About Us Navlink font colour on scroll */
+.nl-ab {
+  color: #fff !important;
+}
 
 .fixed-top.scrolled {
   background-color: #fff !important;
@@ -273,5 +278,5 @@ body {
 }
 
 .fixed-top.scrolled .nav-link {
-  color: rgba(0, 0, 0, .55)
+  color: rgba(0, 0, 0, .55) !important;
 }
