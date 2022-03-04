@@ -263,3 +263,15 @@ body {
   color: black;
   font-size: 20px;
 }
+
+
+
+
+.fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 750ms linear !important;
+}
+
+.fixed-top.scrolled .nav-link {
+  color: rgba(0, 0, 0, .55)
+}
