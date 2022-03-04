@@ -26,13 +26,15 @@
   <!-- External Css -->
   <link rel="stylesheet" href="/assets/css/style.css">
   <title>UFO Images</title>
+  <!-- JQuery CDN -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top"> -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
     <div class="container">
       <a class="navbar-brand" href="index.html">Aliens 911</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -41,12 +43,12 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ms-auto">
-          <a class="nav-link ms-auto hover-underline-animation" href="about_us.html">About Us</a>
-          <a class="nav-link ms-auto hover-underline-animation" href="ufo_search.html">UFO Search</a>
-          <a class="nav-link ms-auto hover-underline-animation" href="ufo_footage.html">UFO Footage</a>
-          <a class="nav-link ms-auto hover-underline-animation" href="ufo_images.html">UFO Images</a>
-          <a class="nav-link ms-auto hover-underline-animation" href="ufo_reports.html">UFO Reports</a>
-          <a class="nav-link ms-auto hover-underline-animation" href="contact_us.html">Contact Us</a>
+          <a class="nav-link nav-link-images ms-auto hover-underline-animation" href="about_us.html">About Us</a>
+          <a class="nav-link nav-link-images ms-auto hover-underline-animation" href="ufo_search.html">UFO Search</a>
+          <a class="nav-link nav-link-images ms-auto hover-underline-animation" href="ufo_footage.html">UFO Footage</a>
+          <a class="nav-link nav-link-images ms-auto hover-underline-animation" href="ufo_images.html">UFO Images</a>
+          <a class="nav-link nav-link-images ms-auto hover-underline-animation" href="ufo_reports.html">UFO Reports</a>
+          <a class="nav-link nav-link-images ms-auto hover-underline-animation" href="contact_us.html">Contact Us</a>
         </div>
       </div>
     </div>
@@ -54,8 +56,8 @@
 
   <section id="ufo_image_section" class="gallery-block cards-gallery">
     <div class="container">
-      <h3 class="text-center mt-3">- UFO Images -</h3>
-      <hr>
+      <h5 class="text-center mt-3 text-white">- UFO Images -</h5>
+      <hr class="text-white">
       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
         <div class="col">
           <div class="card transform-on-hover">
@@ -177,6 +179,15 @@
 
   <br>
 
+  <!-- JS for navbar background colour change -->
+  <script>
+    $(function () {
+      $(document).scroll(function () {
+        var $nav = $(".fixed-top");
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+      });
+    });
+  </script>
   <!-- Bootstrap Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">

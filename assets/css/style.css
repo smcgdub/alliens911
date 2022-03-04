@@ -270,7 +270,8 @@ body {
 /* About Us Navlink font colour on scroll */
 .nav-link-about,
 .nav-link-search,
-.nav-link-footage {
+.nav-link-footage,
+.nav-link-images {
   color: #fff !important;
 }
 
