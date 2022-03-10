@@ -56,6 +56,30 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <!-- Expand map section button -->
+              <h2 class="accordion-header" id="flush-headingOne">
+                <hr class="mx-0 my-0">
+                <button class="accordion-button collapsed ps-0" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  <h5 class="my-0">Click to view UFO sightings on Google Map</h5>
+                </button>
+              </h2>
+              <!-- Google Map iFrame -->
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6571.49794932117!2d-0.15226195983947707!3d51.4436152349645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487605c943c9a079%3A0x715333a6e86e1009!2sBalham%2C%20London%2C%20UK!5e0!3m2!1sen!2sie!4v1646933548269!5m2!1sen!2sie"
+                  width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <!-- Search Button -->
+                <button id="" type="submit" class="btn ps-0 map_button">Click to view
+                  larger map
+                </button>
+              </div>
+            </div>
+          </div>
+          <hr>
           <!-- Donate Message -->
           <!-- <h6 class="">
             If the free resources available on the ARCHI databases are useful to you, please consider making a donation

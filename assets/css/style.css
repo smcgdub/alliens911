@@ -143,6 +143,15 @@ body {
   width: 20px !important;
 }
 
+.accordion-button:not(.collapsed) {
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
+.map_button {
+  color: #000;
+}
+
 /* UFO Footage Page */
 /* Video Player */
 #my-video {
