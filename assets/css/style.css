@@ -15,6 +15,10 @@ body {
 
 /* Navbar */
 /* CSS for navbar background colour change on scroll */
+.navbar-brand {
+  color: rgba(0, 0, 0, .55) !important;
+}
+
 .nav-link-about,
 .nav-link-search,
 .nav-link-footage,
@@ -265,6 +269,9 @@ body {
   padding-top: 80px;
 }
 
+#link_to_full_report:hover {
+  color: #3cd070 !important;
+}
 
 /* Contact Us Page */
 /* Hero Image Contact Us Page*/
