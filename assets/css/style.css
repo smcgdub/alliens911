@@ -14,11 +14,15 @@ body {
 }
 
 /* Navbar */
-/* CSS for navbar background colour change on scroll */
 .navbar-brand {
   color: rgba(0, 0, 0, .55) !important;
 }
 
+/* CSS for navbar background colour change on scroll */
+.navbar-brand-about,
+.navbar-brand-search,
+.navbar-brand-footage,
+.navbar-brand-images,
 .nav-link-about,
 .nav-link-search,
 .nav-link-footage,
@@ -32,6 +36,22 @@ body {
 }
 
 .fixed-top.scrolled .nav-link {
+  color: rgba(0, 0, 0, .55) !important;
+}
+
+.fixed-top.scrolled .navbar-brand-about {
+  color: rgba(0, 0, 0, .55) !important;
+}
+
+.fixed-top.scrolled .navbar-brand-search {
+  color: rgba(0, 0, 0, .55) !important;
+}
+
+.fixed-top.scrolled .navbar-brand-footage {
+  color: rgba(0, 0, 0, .55) !important;
+}
+
+.fixed-top.scrolled .navbar-brand-images {
   color: rgba(0, 0, 0, .55) !important;
 }
 
@@ -201,7 +221,6 @@ body {
   background-size: cover;
 }
 
-/* Navbar Padding */
 #photo_gallery_section {
   padding-top: 80px;
 }
