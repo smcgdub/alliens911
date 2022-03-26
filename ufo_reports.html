@@ -31,7 +31,7 @@
 <body>
   <!-- Navbar -->
   <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top"> -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
     <div class="container">
       <a class="navbar-brand" href="index.html">Alien911</a>
       <!-- Navbar Bars Button -->
@@ -106,6 +106,7 @@
           </table>
           <!-- Horizontal Line -->
           <hr>
+          <p>lorem5000</p>
         </div>
       </div>
     </div>
@@ -129,6 +130,15 @@
     </div>
   </section>
 
+  <!-- JS for navbar background colour change -->
+  <script>
+    $(function () {
+      $(document).scroll(function () {
+        var $nav = $(".fixed-top");
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+      });
+    });
+  </script>
   <!-- Option 1: Bootstrap Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
