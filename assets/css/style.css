@@ -313,6 +313,11 @@ body {
 /* Footer */
 #github_link {
   text-decoration: none;
-  color: black;
+  /* color: black; */
+  color: rgba(0, 0, 0, .55);
   font-size: 20px;
+}
+
+.footer-text {
+  color: rgba(0, 0, 0, .55);
 }
