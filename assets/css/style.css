@@ -301,7 +301,7 @@ body {
   padding-top: 80px;
 }
 
-#link_to_full_report:hover {
+.link_to_full_report:hover {
   color: #3cd070 !important;
 }
 
