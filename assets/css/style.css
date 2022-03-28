@@ -153,6 +153,19 @@ body {
   /* padding-top: 80px; */
 }
 
+/* UFO Search Page*/
+/* Hero Image UFO Search Page*/
+/* #hero_image_ufo_search {
+  background-image: url(/assets/images/about_us.jpg);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
 #ufo_search_content {
   padding-bottom: 25% !important;
   padding-top: 80px;

@@ -62,18 +62,25 @@
           <!-- Background Image Inserted Here -->
           <h3 class="text-white text-center">- Search For Aliens -</h3>
           <br>
-          <!-- Search Form -->
-          <form id="search_form" class="" action="">
+          <!-- My Search Form -->
+          <form id="search_form" class="form" action="">
             <!-- Search Input -->
             <div class="mb-3">
               <label for="location_search_input" class="form-label text-white">- Alien 911 Search -</label>
-              <input type="text" class="form-control" id="location_search_input" aria-describedby="" autocomplete="">
+              <!-- Input search field -->
+              <input class="form-control" id="location_search_input" aria-describedby="" autocomplete="" value="">
+              <!-- Helper text -->
               <div id="search_input_helper_text" class="form-text text-white"><em>- To find the locations of UFO
                   sightings, please type in a British place name, postcode or co-ordinate. -</em>
               </div>
+              <!-- This is a hidden password field that is necessary for the JS search function to run -->
+              <div class="form-group">
+                <input class="form-control" id="pwd" placeholder="Member Password or Leave Blank" value="" hidden />
+              </div>
             </div>
             <!-- Search Button -->
-            <button id="ufo_search_button" type="submit" class="btn search_button ps-0">Search
+            <button id="ufo_search_button" type="submit" class="btn search_button ps-0 ms-auto"
+              onclick="callArchiSearch()">Search
               <img id="ufo_search_button_image" src="/assets/images/ufo.png" alt="">
             </button>
             <!-- <a href="https://www.flaticon.com/free-icons/ufo" title="ufo icons">Ufo icons created by Adib Sulthon - Flaticon</a> -->
