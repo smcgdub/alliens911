@@ -324,11 +324,19 @@ body {
 }
 
 /* Footer */
-#github_link {
+/* #github_link {
   text-decoration: none;
   color: rgba(0, 0, 0, .55);
-  /* color: black; */
-  /* font-size: 20px; */
+} */
+
+.github_link {
+  text-decoration: none;
+  color: rgba(0, 0, 0, .55);
+}
+
+.github_link:hover {
+  text-decoration: none;
+  color: rgba(0, 0, 0, .55);
 }
 
 .footer-text {
