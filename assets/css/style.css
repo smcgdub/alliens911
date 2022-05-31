@@ -153,6 +153,10 @@ body {
   /* padding-top: 80px; */
 }
 
+.animate__animated.animate__fadeIn {
+  --animate-duration: 5s;
+}
+
 /* UFO Search Page*/
 /* Hero Image UFO Search Page*/
 /* #hero_image_ufo_search {
