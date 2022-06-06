@@ -64,6 +64,20 @@ body {
   font-size: 18px;
 }
 
+.link {
+  color: #fdc33a;
+  font-size: 18px;
+}
+
+.link:hover {
+  color: #fdc33a;
+}
+
+/* .link:hover {
+  background-color: #fdc33a;
+  color: #fff;
+} */
+
 /* Navlink Animation Effect */
 /* Code credit goes to - https://www.30secondsofcode.org/css/s/hover-underline-animation */
 .hover-underline-animation {
