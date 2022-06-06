@@ -18,7 +18,7 @@ body {
   color: rgba(0, 0, 0, .55) !important;
 }
 
-/* CSS for navbar background colour change on scroll */
+/* CSS for navbar background color change on scroll */
 .navbar-brand-about,
 .navbar-brand-search,
 .navbar-brand-footage,
@@ -26,7 +26,8 @@ body {
 .nav-link-about,
 .nav-link-search,
 .nav-link-footage,
-.nav-link-images {
+.nav-link-images,
+.fa-bars:before {
   color: #fff !important;
 }
 
@@ -52,6 +53,10 @@ body {
 }
 
 .fixed-top.scrolled .navbar-brand-images {
+  color: rgba(0, 0, 0, .55) !important;
+}
+
+.fixed-top.scrolled .fa-bars:before {
   color: rgba(0, 0, 0, .55) !important;
 }
 
