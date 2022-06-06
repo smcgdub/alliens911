@@ -20,11 +20,9 @@
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <!-- Font Awesome CDN -->
   <script src="https://kit.fontawesome.com/debc4afe80.js" crossorigin="anonymous"></script>
-  <!-- Animate CSS CDN -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <!-- External Css -->
   <link rel="stylesheet" href="/assets/css/style.css">
-  <title>UFO Search</title>
+  <title>Alien911</title>
   <!-- JQuery -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -35,7 +33,7 @@
   <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top"> -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top">
     <div class="container">
-      <a class="navbar-brand navbar-brand-search" href="index.html">Alien911</a>
+      <a class="navbar-brand" href="index.html">Alien911</a>
       <!-- Navbar Bars Button -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,51 +42,22 @@
       <!-- Navbar Links -->
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ms-auto">
-          <a class="nav-link nav-link-search ms-auto hover-underline-animation" href="about_us.html">About Us</a>
-          <!-- <a class="nav-link nav-link-search ms-auto hover-underline-animation" href="ufo_search.html">UFO Search</a> -->
-          <a class="nav-link nav-link-search ms-auto hover-underline-animation" href="ufo_footage.html">UFO Footage</a>
-          <a class="nav-link nav-link-search ms-auto hover-underline-animation" href="ufo_images.html">UFO Images</a>
-          <a class="nav-link nav-link-search ms-auto hover-underline-animation" href="ufo_reports.html">UFO Reports</a>
-          <a class="nav-link nav-link-search ms-auto hover-underline-animation" href="contact_us.html">Contact Us</a>
+          <a class="nav-link ms-auto hover-underline-animation" href="about_us.html">About Us</a>
+          <!-- <a class="nav-link ms-auto hover-underline-animation" href="ufo_search.html">UFO Search</a> -->
+          <a class="nav-link ms-auto hover-underline-animation" href="ufo_footage.html">UFO Footage</a>
+          <a class="nav-link ms-auto hover-underline-animation" href="ufo_images.html">UFO Images</a>
+          <a class="nav-link ms-auto hover-underline-animation" href="ufo_reports.html">UFO Reports</a>
+          <a class="nav-link ms-auto hover-underline-animation" href="contact_us.html">Contact Us</a>
         </div>
       </div>
     </div>
   </nav>
 
   <!-- Hero Image -->
-  <section id="hero_image_ufo_search" class="">
-    <div class="container">
-      <div class="row">
-        <!-- UFO Search Section -->
-        <div id="ufo_search_content" class="col-12 animate__animated animate__fadeIn">
-          <!-- Background Image Inserted Here -->
-          <h3 class="text-white text-center">- Search For Aliens -</h3>
-          <p class="text-white text-center">- Search engine powered by ARCHI Information Systems -</p>
-          <br>
-          <!-- My Search Form -->
-          <div class="mb-3">
-            <form id="search_form" class="form ">
-              <!-- Search Input -->
-              <label for="location_search_input" class="form-label text-white">- Alien 911 Search -</label>
-              <!-- Input search field -->
-              <input class="form-control" id="location_search_input" aria-describedby="" value="">
-              <!-- Helper text -->
-              <div id="search_input_helper_text" class="form-text text-white"><em>- To find the locations of UFO
-                  sightings, please type in a British place name, postcode or co-ordinate. -</em>
-              </div>
-              <!-- This is a hidden password field that is necessary for the JS search function to run -->
-              <div class="form-group">
-                <input class="form-control" id="pwd" placeholder="Member Password or Leave Blank" value="" hidden />
-              </div>
-          </div>
-          <!-- Search Button -->
-          <button id="ufo_search_button" type="submit" class="btn search_button ps-0 ms-auto"
-            onclick="callArchiSearch()">Search
-            <img id="ufo_search_button_image" src="/assets/images/ufo.png" alt="">
-          </button>
-          <!-- <a href="https://www.flaticon.com/free-icons/ufo" title="ufo icons">Ufo icons created by Adib Sulthon - Flaticon</a> -->
-          </form>
-        </div>
+  <section id="hero_image" class="">
+    <div class="row">
+      <div class="col-12">
+        <!-- Background Image Inserted Here -->
       </div>
     </div>
   </section>
@@ -136,7 +105,6 @@
   </script>
   <!-- External JS file-->
   <script src="/assets/JavaScript/app.js"></script>
-
 </body>
 
 </html>
