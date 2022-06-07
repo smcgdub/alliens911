@@ -245,7 +245,7 @@ body {
   background-size: cover;
 }
 
-/* UFO photo page */
+/* UFO Images page */
 #ufo_image_section {
   background-image: url(/assets/images/ufo_images_background_2.jpg);
   width: 100vw;
@@ -319,6 +319,15 @@ body {
   }
 }
 
+.card-img-top {
+  max-height: 202px;
+  min-height: 201px;
+}
+
+.card-body {
+  min-height: 130px;
+}
+
 /* UFO Reports */
 #ufo_reports_section {
   padding-top: 80px;
@@ -365,3 +374,4 @@ body {
 .footer-text {
   color: rgba(0, 0, 0, .55);
 }
+
