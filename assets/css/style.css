@@ -375,3 +375,16 @@ body {
   color: rgba(0, 0, 0, .55);
 }
 
+/* FAQ Page */
+/* Hero Image Index.html Page*/
+#hero_image_faq {
+  background-image: url(/assets/images/ufo_images_background_2.jpg);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 80px;
+}
