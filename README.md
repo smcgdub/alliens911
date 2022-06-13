@@ -19,14 +19,15 @@ Aliens 911 is a database of Unidentified Flying Object (UFO) sightings. We are s
 ### **2. Features**
   * 2.1 The Navbar
   * 2.2 The Footer
-  * 2.3 The Hero Image
-  * 2.4 Testimonials
-  * 2.5 About Us
-  * 2.6 Cleaning Services
-  * 2.7 Our Promise
-  * 2.8 FAQ'S
-  * 2.9 Contact Us 
-  * 2.10 Features Left To Implement
+  * 2.3 The Homepage
+  * 2.4 About Us
+  * 2.5 UFO Footage
+  * 2.6 UFO Images
+  * 2.7 UFO Reports
+  * 2.8 Contact Us
+  * 2.9 More
+  * 2.10 Subscribe
+  * 2.11 Features Left To Implement
 
 ### **3. Technologies/Languages Used**
   * 3.1 Gitpod
@@ -35,8 +36,7 @@ Aliens 911 is a database of Unidentified Flying Object (UFO) sightings. We are s
   * 3.4 Bootstrap (Version 4)
   * 3.5 Google fonts 
   * 3.6 Font Awesome 
-  * 3.7 YouTube
-  * 3.8 External hyperlinks
+  * 3.7 Video JS
   * 3.9 Balsamiq
 
 ### **4. Testing**
@@ -61,22 +61,23 @@ Aliens 911 is a database of Unidentified Flying Object (UFO) sightings. We are s
 ### **8. Disclaimer**
 
   * 8.1 Disclaimer on project 
->
+___
+
 ## **1. User Experience (UX)**
 
 ### **1.1 Target Audience**
 
 ####  This website is aimed at anyone who:
 
-* Is interested in reading information on recorded UFO phenomenon. 
+* Is interested in reading information on recorded UFO phenomenon, viewing UFO images or watching UFO Video footage. 
 
 ### **1.2 Visitor goals** 
 
-* To allow visitors to the site to search for recorded UFO phenomenon by a particular geographical area (currently limited to the UK). Users can also view UFO videos, UFO imagery, and read a sample of free to read UFO reports.  
+* To be able to to search for recorded UFO phenomenon by a particular geographical area (currently limited to the UK). I also want to be able to view the UFO Images, the UFO Footage, read the free to read UFO reports, sign up for a paid subscription and to contact the site admin if needed.  
 
 ### **1.3 Business goals**
 
-* The site provides some information for free to users. To access all of the 7,000+ recorded files users are required to have paid subscription.
+* The site provides some information for free to users, however to access all of the 7,000+ recorded files users are required to have paid subscription. The business goal of the site is to drive paid subscriptions.
 
 ### **1.4 User Stories**
 
@@ -84,7 +85,7 @@ As a visitor to the company website i expect/want/need
 
 ### **1.5 Design choices** 
 
-I wanted the project to have a serious feel and to be credible. We are using official data from the British Ministry of Defense and we wanted the design choices to reflect the credibility of the site. I wanted to use lots of great imagery throughout the site so it gave a positive user experience. I didn't want lots of clutter on the pages as this can be common with websites for this type of business. I also wanted the site to be easy to navigate.
+I wanted the project to have a serious feel and to be credible. We are using official data from the British Ministry of Defense (MoD) and we wanted the design choices to reflect the credibility of the site. I wanted to use lots of great imagery throughout the site so it gave a positive user experience. I didn't want lots of clutter on the pages as this can be common with websites of this type. The site also had to be easy to navigate.
 
 #### FONTS
 
@@ -100,9 +101,14 @@ I wanted the project to have a serious feel and to be credible. We are using off
 
 * The bulk of the site is made up of full page background imagery. This was done intentionally so each page has its own feel without needing to do a lot of CSS to achieve this. The colors that we did use throughout the site were:
 
-* #000000 - Black
-* #ffffff - White 
-* #0000008c - Grey 
+1. Black<br>
+![Black Color Used](./assets/images/readme_images/black_readme.png)
+
+2. White<br>
+![White Color Used](./assets/images/readme_images/white_readme.png)
+
+3. Grey<br>
+![Grey Color Used](./assets/images/readme_images/grey_readme.png)
 
 ### **1.6 Wire Frames** 
 
@@ -119,15 +125,14 @@ I wanted the project to have a serious feel and to be credible. We are using off
 [FAQ Mobile & iPad]()<br>
 [Contact Us Desktop]()<br>
 [Contact Us Mobile & iPad]()
->
+___
 ## **2. Features**
 
 ### **2.1 The Navbar**
 
-<!-- Need to add this image -->
-![Image of Navbar]()
+![Image of Navbar](./assets/images/readme_images/navbar_desktop.png)
 
-* The Navbar i used is a standard Bootstrap 5 Navbar. The menu items in the Navbar may change over time, but the currentl ones we have are: 
+* The Navbar i used is a standard Bootstrap 5 Navbar. The menu items in the Navbar may change over time, but the current ones we have are: 
 
 1. About Us
 2. UFO Footage 
@@ -137,47 +142,69 @@ I wanted the project to have a serious feel and to be credible. We are using off
 6. More (A drop down menu which contains the F.A.Q page and the Terms of Use page)
 7. Subscribe 
 
-The site also needed to be mobile responsive, this is the main reason i chose Bootstrap for this project as it provided me with a quick and easy way of achieving this. On smaller screen sizes the navbar will collapse into a hamburger menu that when clicked will expand and reveal the nav bar items. 
+* The site also needed to be mobile responsive, this is the main reason i chose Bootstrap for this project as it provided me with a quick and easy way of achieving this. On smaller screen sizes the navbar will collapse into a hamburger menu that when clicked will expand and reveal the nav bar items. 
 
-![Image of Navbar as a hamburger menu opened]()
+![Image of Navbar as a hamburger menu opened](./assets/images/readme_images/navbar_opened_mobile.png)
 
 ### **2.2 The Footer** 
 
 * The footer is a standard basic footer that just lists the copyright to ARCHI Information Systems and also lists myself as the developer. 
 
-![Image of main footer]()
+![Image of main footer](./assets/images/readme_images/footer.png)
 
-### **2.3 The Homepage **
+### **2.3 The Homepage**
 
-* 
+* The homepage is where you will find the main search engine for the site. Here users can enter any geographical location in the UK to search. The ARCHI search engine will deliver results within a set radius of that geographical area. 
+
+![Image of home page](./assets/images/readme_images/main_homepage.png)
+
+* The search bar
+
+![Image of home page](./assets/images/readme_images/homepage_search_bar.png)
 
 ### **2.4 About Us**
 
 * The about us page has a background image of a man shining a torch into the sky and some text about the site. 
 
-![Image of about us page]()
+![Image of about us page](./assets/images/readme_images/about_us_page.png)
 
-### **2.5 UFO Footage **
+### **2.5 UFO Footage**
 
-* This page has a gallery of uploaded UFO Footage
+* This page has a gallery of uploaded UFO Footage for users to view. The video player i used for this was [VideoJS](https://videojs.com/) Users are also able to watch the video full screen an as a pop out video they can watch while the continue to scroll the page.
 
-![Image of UFO Footage page]()
+![Image of UFO Footage page](./assets/images/readme_images/ufo_footage_page.png)
+
+* Picture in picture active 
+
+![Image of UFO Footage page](./assets/images/readme_images/ufo_footage_page_picture_in_picture.png)
 
 ### **2.6 UFO Images**
 
-* This page has a gallery of uploaded UFO Images  
+* This page has a gallery of uploaded UFO Images from various sources. The gallery will display images as cards with a title and a short description. Users can click on an image to enlarge it, once the image is full screen the user can then scroll through the images one by one. The cards are also responsive and the layout will change depending on the users screen size. 
 
-![Image of UFO Images page]()
+![Image of UFO Images page](./assets/images/readme_images/ufo_images_page.png)
+
+* Image in full screen/expanded mode 
+
+![Image of UFO Images page full screen image](./assets/images/readme_images/ufo_image_page_image_fullscreen.png)
+
+* Image page in tablet size 
+
+![Image of UFO Images page tablet](./assets/images/readme_images/ufo_image_page_tablet.png)
+
+* Image page in mobile size 
+
+![Image of UFO Images page tablet](./assets/images/readme_images/ufo_image_page_mobile.png)
 
 ### **2.7 UFO Reports**
 
-* This page will have a selection of free to read UFO reports. Users can purchase a paid subscription to access all 7,000+ reports 
+* This page will have a selection of free to read UFO reports. The reports are all displayed in the exact same format displaying a summary of each report. Users will be able to click into each report and read it in more detail. 
 
-![Image of UFO Reports page]()
+* Users can purchase a paid subscription to access all 7,000+ reports. 
+
+![Image of UFO Reports page](./assets/images/readme_images/ufo_reports_page.png)
 
 ### **2.8 Contact Us**
-
-![Image of contact us page]()
 
 * The contact us page has a contact form where users can contact the site admin. The fields on the form are: 
 
@@ -185,17 +212,32 @@ The site also needed to be mobile responsive, this is the main reason i chose Bo
 2. The users email `<input type="email">`
 3. The users message `<textarea>`
 
-### **2.9 More **
+![Image of contact us page](./assets/images/readme_images/contact_us_page.png)
+
+### **2.9 More**
 
 * The more dropdown menu contains 2 pages at the moment. They are the F.A.Q page and the Terms of Use page
 
-![Image of F.A.Q page]()
-![Image of Terms of Use page]()
+* The FAQ page has an image instructing the user to scroll down to read the FAQ's
 
-### **2.10 Subscribe **
+![Image of F.A.Q page](./assets/images/readme_images/faq_page.png)<br>
+
+* FAQ page text displayed
+
+![Image of F.A.Q page scrolled down](./assets/images/readme_images/faq_page_text.png)<br>
+
+* The Terms of Use page has an image instructing the user to scroll down to read the Terms of Use
+
+![Image of Terms of Use page](./assets/images/readme_images/terms_of_use_page.png)<br>
+
+* Terms of Use page text displayed
+
+![Image of Terms of Use page](./assets/images/readme_images/terms_of_use_text.png)<br>
+
+### **2.10 Subscribe**
 
 * Users can purchase an annual subscription to ARCHI UK on this page.  
->
+___
 
 ## **3. Technologies/Languages Used**
 
@@ -205,36 +247,24 @@ The site also needed to be mobile responsive, this is the main reason i chose Bo
 3.4 [Bootstrap](https://getbootstrap.com/) - Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites. Bootstrap 5 is the version i used for the development of this project.<br>
 3.5 [Google fonts](https://fonts.google.com/) - A library of 1,023 free licensed font families for developers to choose from.<br>
 3.6 [Font Awesome](https://fontawesome.com/) - A library of 1,600+ free to use icons that can be customized even further with CSS<br>
-3.7 [Pearl](https://www.perl.org/) - Perl is a highly capable, feature-rich programming language with over 30 years of development.
+3.7 [Pearl](https://www.perl.org/) - Perl is a highly capable, feature-rich programming language with over 30 years of development.<br>
+3.8 [VideoJS](https://videojs.com/) - VideoJS is a web video player built from the ground up for an HTML5 world. It supports HTML5 video and modern streaming formats, as well as YouTube, Vimeo, and even Flash (through plugins, more on that later). It supports video playback on desktop and mobile devices.<br>
 3.9 [Balsamiq](https://balsamiq.com/wireframes/?gclid=CjwKCAiAi_D_BRApEiwASslbJ_NXgCJLhWQ06W9sA_HcnQ4agJM5EJa4wWRNrXu6oJbIoz_zaiVBaRoCAScQAvD_BwE)- Balsamiq Wireframes is a rapid low-fidelity UI wireframing tool that reproduces the experience of sketching on a notepad or whiteboard. Used for producing the wire frames for this project. 
->
+___
 ## **4. Testing**
 
 * Testing information can be found in the [testing.md](testing.md) file
->
+___
+
 ## **5. Deployment**
 
 ### **5.1 Deployment**  
 
-To deploy the site on Github i undertook the following steps:
-
-1. Navigated to my profile page on Github
-2. Selected this project from the repositories
-3. Clicked on settings
-4. Select pages from the menu on the left 
-5. Click where is says 'source' in the dropdown menu, select master 
-6. Click on the menu to the right select /(root)
-7. Click save
-
-You will then receive a confirmation saying the page has been published and also be provided with the link where people can view your site.
-
-![Image of page published confirmation]()
-
-The link to view the published site can be found by clicking [Here](https://www.aliens911.com/)
+* The site is currently deployed on ARCHI UK servers. The link to the published site can be found by clicking here [Aliens911.com](https://www.aliens911.com/)
 
 ### **5.2 Cloning**
 
-You can clone the projects repository to your local computer by following the steps below:
+* You can clone the projects repository to your local computer by following the steps below:
 
 Cloning a repository using the command line
 
@@ -242,34 +272,28 @@ Cloning a repository using the command line
 2. Click on the tab that says < >code 
 3. Above the files, click the button that says &#8595;code
 
-![Github code button](assets/images/github-code-button.png)
+![Github code button](./assets/images/readme_images/github-code-button.png)
 
 4. From the menu select HTTPS
 5. Click on the clipboard icon on the right hand side (Image below)
 
-![Github copy link button](assets/images/github-clipboard.png)
+![Github copy link button](./assets/images/readme_images/github-clipboard.png)
 
 6. Open the terminal in your IDE
 7. Change the current working directory to the location where you want the cloned directory.
 8. In terminal type `git clone` and then paste the URL you copied earlier 
-https://github.com/smcgdub/Dirt-Be-Gone-MS1-Project-.git
+https://github.com/smcgdub/alliens911
 9. Press Enter to create your local clone.
 
-### **5.3 Cloning Desktop**
-You can also clone the project using Github Desktop. To do this you can do the following: 
+### **5.3 Cloning To Desktop**
+You can also clone the project from Github direct to your Desktop. To do this you can do the following: 
 
-1. Download Github Desktop if you do not already have it installed. The link can be found here [Github Desktop](https://desktop.github.com/)
-2. Sign in to GitHub and GitHub Desktop before you start to clone.
-3. On github navigate to the project repository. The link can be found here: https://github.com/smcgdub/Dirt-Be-Gone-MS1-Project-
-4. Click on the tab that says < >code 
-5. Above the files, click the button that says &#8595;code
+1. On github navigate to the projects repository. The link can be found here: https://github.com/smcgdub/alliens911
+2. Click on the tab that says < >code 
+3. From the dropdown menu select the option DownloadZip
+4. The zipped file will now download to your desktop, drag and drop this unzipped file to your IDE and you can open the project. 
+___
 
-![Github code button](assets/images/github-code-button.png)
-
-6. Click open with GitHub Desktop to clone and open the repository with GitHub Desktop.
-7. Click Choose... and, using the Finder window, navigate to a local path where you want to clone the repository.
-8. Click clone 
->
 ## **6. Credits** 
 
 ### **6.1 Media** 
@@ -282,14 +306,13 @@ Licence information on the image can be found [Here](https://www.istockphoto.com
 Credit for the image goes to [Anastasia Gepp](https://pixabay.com/users/nastya_gepp-3773230/) <br>
 Licence information on the image can be found [Here](https://pixabay.com/service/license/)
 
-
 ### **6.2 Code** 
 
-* Majority of the code i used was Bootstrap. Their [main documentation](https://getbootstrap.com/docs/5.0/getting-started/introduction/) had lots of great information on how to use the framework. 
+* Majority of the code i used was Bootstrap. Their [main documentation](https://getbootstrap.com/docs/5.0/getting-started/introduction/) had lots of great information on how to use the framework.
 
 ### **6.3 Acknowledgements**
+___
 
->
 ## **7. Contact**
 
 Feel free to contact me on any of the following channels:<br>
@@ -298,8 +321,8 @@ Feel free to contact me on any of the following channels:<br>
 * 7.2 [Email](mailto:smcgdub@gmail.com)<br>
 * 7.3 [Skype](https://join.skype.com/invite/ndruMu7qVuKZ)
 * 7.4 [My Portfolio Page](https://stephens-portfolio.com/)
->
 
+___
 ## **8. Disclaimer**  
 
 >
