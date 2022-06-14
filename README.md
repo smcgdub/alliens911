@@ -20,14 +20,15 @@ Aliens 911 is a database of Unidentified Flying Object (UFO) sightings. We are s
   * 2.1 The Navbar
   * 2.2 The Footer
   * 2.3 The Homepage
-  * 2.4 About Us
-  * 2.5 UFO Footage
-  * 2.6 UFO Images
-  * 2.7 UFO Reports
-  * 2.8 Contact Us
-  * 2.9 More
-  * 2.10 Subscribe
-  * 2.11 Features Left To Implement
+  * 2.4 Search Results 
+  * 2.5 About Us
+  * 2.6 UFO Footage
+  * 2.7 UFO Images
+  * 2.8 UFO Reports
+  * 2.9 Contact Us
+  * 2.10 More
+  * 2.11 Subscribe
+  * 2.12 Features Left To Implement
 
 ### **3. Technologies/Languages Used**
   * 3.1 VSCode
@@ -155,7 +156,7 @@ ___
 
 ### **2.3 The Homepage**
 
-* The homepage is where you will find the main search engine for the site. Here users can enter any geographical location in the UK to search. The ARCHI search engine will deliver results within a set radius of that geographical area. 
+* The homepage is where you will find the main search engine for the site. Here users can enter any geographical location in the UK to perform a search. The ARCHI UK search engine will then deliver all of the results on a new page. The results displayed will be capped to within a specified radius of the original geographical search area. 
 
 ![Image of home page](./assets/images/readme_images/main_homepage.png)
 
@@ -163,15 +164,32 @@ ___
 
 ![Image of home page](./assets/images/readme_images/homepage_search_bar.png)
 
-### **2.4 About Us**
+### **2.4 Search Results**
 
-* The about us page has a background image of a man shining a torch into the sky and some text about the site. 
+* When a user searches on the homepage using a geographical location, the ARCHI UK search engine will process that search result and return a list of search results to the user. The search results are displayed on a new page using the same template with a summary of each event. The summary displayed will contain:
+
+1. Event Type
+2. Event Date
+3. Event description (Short summary)
+4. Event location (co-ordinates)
+5. Link to a LIDAR map where event took place
+6. Date the event was added to the database 
+
+![Image of search results](./assets/images/readme_images/search_results_page.png)
+
+* The search results displayed will also be limited to within a certain distance from the original search location. So if a user searches for the postcode SW12 8AA, then the search results will be limited to all results within a specific kilometer distance from this area.
+
+* Also the number of results a user can read for free will be limited, only members with a paid up subscription will be able to access all of the reports without restriction. 
+
+### **2.5 About Us**
+
+* The about us page has a background image of a man shining a torch into the sky and some text giving information about the site. 
 
 ![Image of about us page](./assets/images/readme_images/about_us_page.png)
 
-### **2.5 UFO Footage**
+### **2.6 UFO Footage**
 
-* This page has a gallery of uploaded UFO Footage for users to view. The video player i used for this was [VideoJS](https://videojs.com/) Users are also able to watch the video in thumbnail size, full screen, and as a pop out video they can watch while continuing to scroll the page.
+* This page has a gallery of uploaded UFO Footage for users to view. The video player i used for this was [VideoJS](https://videojs.com/) Users are also able to watch the video in thumbnail size, full screen, and as a pop out video where they can watch a certain piece of footage while continuing to scroll at the same time.
 
 ![Image of UFO Footage page](./assets/images/readme_images/ufo_footage_page.png)
 
@@ -179,7 +197,7 @@ ___
 
 ![Image of UFO Footage page](./assets/images/readme_images/ufo_footage_page_picture_in_picture.png)
 
-### **2.6 UFO Images**
+### **2.7 UFO Images**
 
 * This page has a gallery of uploaded UFO Images from various sources. The gallery will display images as cards with a title and a short description. Users can click on an image to enlarge it, once the image is full screen the user can then scroll through the images one by one. The cards are also responsive and the layout will change depending on the users screen size. 
 
@@ -197,7 +215,7 @@ ___
 
 ![Image of UFO Images page tablet](./assets/images/readme_images/ufo_image_page_mobile.png)
 
-### **2.7 UFO Reports**
+### **2.8 UFO Reports**
 
 * This page will have a selection of free to read UFO reports. The reports are all displayed in the exact same format displaying a summary of each report. Users will be able to click into each report and read it in more detail. 
 
@@ -205,7 +223,7 @@ ___
 
 ![Image of UFO Reports page](./assets/images/readme_images/ufo_reports_page.png)
 
-### **2.8 Contact Us**
+### **2.9 Contact Us**
 
 * The contact us page has a contact form where users can contact the site admin. The fields on the form are: 
 
@@ -216,7 +234,7 @@ ___
 
 ![Image of contact us page](./assets/images/readme_images/contact_us_page.png)
 
-### **2.9 More**
+### **2.10 More**
 
 * The more dropdown menu contains 2 pages at the moment. They are the F.A.Q page and the Terms of Use page
 
@@ -236,9 +254,11 @@ ___
 
 ![Image of Terms of Use page](./assets/images/readme_images/terms_of_use_text.png)<br>
 
-### **2.10 Subscribe**
+### **2.11 Subscribe**
 
-* Users can purchase an annual subscription to ARCHI UK on this page.  
+* Users can purchase an annual subscription to ARCHI UK on this page.
+
+### **2.11 Features Left To Implement**
 ___
 
 ## **3. Technologies/Languages Used**
@@ -250,7 +270,7 @@ ___
 3.5 [Bootstrap](https://getbootstrap.com/) - Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites. Bootstrap 5 is the version i used for the development of this project.<br>
 3.6 [Google fonts](https://fonts.google.com/) - A library of 1,023 free licensed font families for developers to choose from.<br>
 3.7 [Font Awesome](https://fontawesome.com/) - A library of 1,600+ free to use icons that can be customized even further with CSS<br>
-3.8 [Pearl](https://www.perl.org/) - Perl is a highly capable, feature-rich programming language with over 30 years of development.<br>
+3.8 [Pearl](https://www.perl.org/) - Pearl is a highly capable, feature-rich programming language with over 30 years of development.<br>
 3.9 [VideoJS](https://videojs.com/) - VideoJS is a web video player built from the ground up for an HTML5 world. It supports HTML5 video and modern streaming formats, as well as YouTube, Vimeo, and even Flash (through plugins, more on that later). It supports video playback on desktop and mobile devices.<br>
 3.10 [Balsamiq](https://balsamiq.com/wireframes/?gclid=CjwKCAiAi_D_BRApEiwASslbJ_NXgCJLhWQ06W9sA_HcnQ4agJM5EJa4wWRNrXu6oJbIoz_zaiVBaRoCAScQAvD_BwE)- Balsamiq Wireframes is a rapid low-fidelity UI wireframing tool that reproduces the experience of sketching on a notepad or whiteboard. Used for producing the wire frames for this project. 
 ___
@@ -309,7 +329,7 @@ ___
 
 ### **6.2 Code** 
 
-* Majority of the code i used was Bootstrap. Their [main documentation](https://getbootstrap.com/docs/5.0/getting-started/introduction/) had lots of great information on how to use the framework.
+* Majority of the code used was Bootstrap. Their [main documentation](https://getbootstrap.com/docs/5.0/getting-started/introduction/) has most of the information you need for using the framework.
 ___
 
 ## **7. Contact Me**
