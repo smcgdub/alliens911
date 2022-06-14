@@ -67,6 +67,7 @@ body {
 .link {
   color: #fdc33a;
   font-size: 18px;
+  text-decoration: none;
 }
 
 .link:hover {
@@ -387,4 +388,23 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 80px;
+}
+
+/* Subscribe Page */
+#subscribe_section {
+  padding-top: 80px;
+  background-image: url(/assets/images/subscribe_image.jpg);
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 434px) {
+  #subscribe_section {
+    height: 100vh;
+  }
 }

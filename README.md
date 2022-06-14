@@ -256,9 +256,11 @@ ___
 
 ### **2.11 Subscribe**
 
-* Users can purchase an annual subscription to ARCHI UK on this page.
+* On the subscribe page users can purchase an annual subscription to ARCHI UK. Payments are currently taken via Paypal
 
-### **2.11 Features Left To Implement**
+![Image of Terms of Use page](./assets/images/readme_images/subscribe_readme_image.png)<br>
+
+### **2.12 Features Left To Implement**
 ___
 
 ## **3. Technologies/Languages Used**
@@ -326,6 +328,7 @@ ___
 * Image on the UFO Footage credit goes to [Niek Doup](https://unsplash.com/@niekdoup). Link to the image is [Here](https://unsplash.com/photos/OuuMTjwEP-o)<br>
 * Image on the UFO Images, FAQ and Terms of Use page credit goes to [Peter Gargiulo](https://unsplash.com/@grndezyns). Link to the image is [Here](https://unsplash.com/photos/cGNCepznaV8)<br>
 * Image on the Contact Us page credit goes to [Dave Hoefler](https://unsplash.com/@davehoefler). Link to the image is [Here](https://unsplash.com/photos/rcE3_D-u2NE)<br>
+* Image on the Subscribe page credit goes to [Eberhard Grossgasteiger](https://unsplash.com/@eberhardgross). Link to the image is [Here](https://unsplash.com/photos/cs0sK0gzqCU)<br>
 
 ### **6.2 Code** 
 
