@@ -35,10 +35,10 @@ Aliens 911 is a database of Unidentified Flying Object (UFO) sightings. We are s
   * 3.2 HTML5
   * 3.3 CSS
   * 3.4 JavaScript
-  * 3.5 Bootstrap (Version 4)
+  * 3.5 Bootstrap (Version 5)
   * 3.6 Google fonts 
   * 3.7 Font Awesome 
-  * 3.8 Pear
+  * 3.8 Pearl
   * 3.9 Video JS
   * 3.10 Balsamiq
 
@@ -266,8 +266,8 @@ ___
 3.1 [VS Code](https://code.visualstudio.com/) - I used Visual Studio Code for all of the coding i did during the project<br>
 3.2 [HTML5](https://html.com/html5/#What_is_HTML) - The markup language used for this project.<br>
 3.3 [CSS](https://en.wikipedia.org/wiki/CSS) - I used CSS to help alter and adjust the presentation of the website to create a pleasant user experience.<br>
-3.4 [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - JavaScript often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. Alongside HTML and CSS, JavaScript is one of the core technologies of the World Wide Web.
-3.5 [Bootstrap](https://getbootstrap.com/) - Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites. Bootstrap 5 is the version i used for the development of this project.<br>
+3.4 [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - JavaScript often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. Alongside HTML and CSS, JavaScript is one of the core technologies of the World Wide Web.<br>
+3.5 [Bootstrap 5](https://getbootstrap.com/) - Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites. Bootstrap 5 is the version i used for the development of this project.<br>
 3.6 [Google fonts](https://fonts.google.com/) - A library of 1,023 free licensed font families for developers to choose from.<br>
 3.7 [Font Awesome](https://fontawesome.com/) - A library of 1,600+ free to use icons that can be customized even further with CSS<br>
 3.8 [Pearl](https://www.perl.org/) - Pearl is a highly capable, feature-rich programming language with over 30 years of development.<br>
