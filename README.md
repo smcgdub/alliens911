@@ -4,7 +4,7 @@
 
 ## **Introduction**
 
-Aliens 911 is a database of Unidentified Flying Object (UFO) sightings. We are starting with British UFO sightings data from the UK's Ministry of defense's (MOD). Here you'll see Distribution Maps of those sightings in England, Scotland or Wales. We're currently working on the Worldwide data and it will be coming soon!
+Aliens 911 is a database of Unidentified Flying Object (UFO) sightings. We are starting with British UFO sightings data from the UK's Ministry of defense's (MOD). Here you'll see distribution maps of those sightings in England, Scotland or Wales. We're currently working on the worldwide data and it will be coming soon!
 
 ## **Table of contents** 
 
@@ -30,14 +30,16 @@ Aliens 911 is a database of Unidentified Flying Object (UFO) sightings. We are s
   * 2.11 Features Left To Implement
 
 ### **3. Technologies/Languages Used**
-  * 3.1 Gitpod
+  * 3.1 VSCode
   * 3.2 HTML5
   * 3.3 CSS
-  * 3.4 Bootstrap (Version 4)
-  * 3.5 Google fonts 
-  * 3.6 Font Awesome 
-  * 3.7 Video JS
-  * 3.9 Balsamiq
+  * 3.4 JavaScript
+  * 3.5 Bootstrap (Version 4)
+  * 3.6 Google fonts 
+  * 3.7 Font Awesome 
+  * 3.8 Pear
+  * 3.9 Video JS
+  * 3.10 Balsamiq
 
 ### **4. Testing**
   * 4.1 See [testing.md](testing.md) document 
@@ -51,7 +53,6 @@ Aliens 911 is a database of Unidentified Flying Object (UFO) sightings. We are s
 ### **6. Credits**
   * 6.1 Media
   * 6.2 Code
-  * 6.3 Acknowledgements
 
 ### **7. Contact**
   * 7.1 LinkedIn
@@ -85,7 +86,7 @@ As a visitor to the company website i expect/want/need
 
 ### **1.5 Design choices** 
 
-I wanted the project to have a serious feel and to be credible. We are using official data from the British Ministry of Defense (MoD) and we wanted the design choices to reflect the credibility of the site. I wanted to use lots of great imagery throughout the site so it gave a positive user experience. I didn't want lots of clutter on the pages as this can be common with websites of this type. The site also had to be easy to navigate.
+* I wanted the project to have a serious feel and to be credible. We are using official data from the British Ministry of Defense (MoD) and we wanted the design choices to reflect the credibility of the site. I wanted to use lots of great imagery throughout the site so it gave a positive user experience. I didn't want lots of clutter on the pages as this can be common with websites of this type. The site also had to be easy to navigate.
 
 #### FONTS
 
@@ -170,7 +171,7 @@ ___
 
 ### **2.5 UFO Footage**
 
-* This page has a gallery of uploaded UFO Footage for users to view. The video player i used for this was [VideoJS](https://videojs.com/) Users are also able to watch the video full screen an as a pop out video they can watch while the continue to scroll the page.
+* This page has a gallery of uploaded UFO Footage for users to view. The video player i used for this was [VideoJS](https://videojs.com/) Users are also able to watch the video in thumbnail size, full screen, and as a pop out video they can watch while continuing to scroll the page.
 
 ![Image of UFO Footage page](./assets/images/readme_images/ufo_footage_page.png)
 
@@ -211,6 +212,7 @@ ___
 1. The users name - `<input type="text">`
 2. The users email `<input type="email">`
 3. The users message `<textarea>`
+4. Send button 
 
 ![Image of contact us page](./assets/images/readme_images/contact_us_page.png)
 
@@ -242,14 +244,15 @@ ___
 ## **3. Technologies/Languages Used**
 
 3.1 [VS Code](https://code.visualstudio.com/) - I used Visual Studio Code for all of the coding i did during the project<br>
-3.2 [HTML5 - Hypertext Markup Language](https://html.com/html5/#What_is_HTML) - The markup language used for this project.<br>
-3.3 [CSS - Cascading Style Sheet](https://en.wikipedia.org/wiki/CSS) - I used CSS to help alter and adjust the presentation of the website to create a pleasant user experience.<br>
-3.4 [Bootstrap](https://getbootstrap.com/) - Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites. Bootstrap 5 is the version i used for the development of this project.<br>
-3.5 [Google fonts](https://fonts.google.com/) - A library of 1,023 free licensed font families for developers to choose from.<br>
-3.6 [Font Awesome](https://fontawesome.com/) - A library of 1,600+ free to use icons that can be customized even further with CSS<br>
-3.7 [Pearl](https://www.perl.org/) - Perl is a highly capable, feature-rich programming language with over 30 years of development.<br>
-3.8 [VideoJS](https://videojs.com/) - VideoJS is a web video player built from the ground up for an HTML5 world. It supports HTML5 video and modern streaming formats, as well as YouTube, Vimeo, and even Flash (through plugins, more on that later). It supports video playback on desktop and mobile devices.<br>
-3.9 [Balsamiq](https://balsamiq.com/wireframes/?gclid=CjwKCAiAi_D_BRApEiwASslbJ_NXgCJLhWQ06W9sA_HcnQ4agJM5EJa4wWRNrXu6oJbIoz_zaiVBaRoCAScQAvD_BwE)- Balsamiq Wireframes is a rapid low-fidelity UI wireframing tool that reproduces the experience of sketching on a notepad or whiteboard. Used for producing the wire frames for this project. 
+3.2 [HTML5](https://html.com/html5/#What_is_HTML) - The markup language used for this project.<br>
+3.3 [CSS](https://en.wikipedia.org/wiki/CSS) - I used CSS to help alter and adjust the presentation of the website to create a pleasant user experience.<br>
+3.4 [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - JavaScript often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. Alongside HTML and CSS, JavaScript is one of the core technologies of the World Wide Web.
+3.5 [Bootstrap](https://getbootstrap.com/) - Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites. Bootstrap 5 is the version i used for the development of this project.<br>
+3.6 [Google fonts](https://fonts.google.com/) - A library of 1,023 free licensed font families for developers to choose from.<br>
+3.7 [Font Awesome](https://fontawesome.com/) - A library of 1,600+ free to use icons that can be customized even further with CSS<br>
+3.8 [Pearl](https://www.perl.org/) - Perl is a highly capable, feature-rich programming language with over 30 years of development.<br>
+3.9 [VideoJS](https://videojs.com/) - VideoJS is a web video player built from the ground up for an HTML5 world. It supports HTML5 video and modern streaming formats, as well as YouTube, Vimeo, and even Flash (through plugins, more on that later). It supports video playback on desktop and mobile devices.<br>
+3.10 [Balsamiq](https://balsamiq.com/wireframes/?gclid=CjwKCAiAi_D_BRApEiwASslbJ_NXgCJLhWQ06W9sA_HcnQ4agJM5EJa4wWRNrXu6oJbIoz_zaiVBaRoCAScQAvD_BwE)- Balsamiq Wireframes is a rapid low-fidelity UI wireframing tool that reproduces the experience of sketching on a notepad or whiteboard. Used for producing the wire frames for this project. 
 ___
 ## **4. Testing**
 
@@ -298,22 +301,18 @@ ___
 
 ### **6.1 Media** 
 
- * All images of the apartments used in the carousel on the home page were provided by [Dublin City Rentals](https://dublincityrentals.com/) who is the owner of all of the imagery and has given permission for the imagery to be used. 
-* Image of the cleaner on the About Us page was purchased from iStock photo. Link to the image is [Here](https://www.istockphoto.com/photo/ok-for-cleaning-gm471666399-26017975) <br>
-Credit for the image goes to [LittleBee80](https://www.istockphoto.com/portfolio/littlebee80?assettype=image&mediatype=photography&sort=best) <br>
-Licence information on the image can be found [Here](https://www.istockphoto.com/help/licenses)
-* Image of the cleaner on the our promise page was sourced from Pixabay. Link to image [Here](https://pixabay.com/photos/girl-white-woman-young-beautiful-4906257/) <br>
-Credit for the image goes to [Anastasia Gepp](https://pixabay.com/users/nastya_gepp-3773230/) <br>
-Licence information on the image can be found [Here](https://pixabay.com/service/license/)
+* Image on the homepage credit goes to [Thanh Nguyen](https://unsplash.com/@flousentimental). Link to the image is [Here](https://unsplash.com/photos/XZj8Z6Elmz4)<br>
+* Image on the About Us page credit goes to Martin Sattler<br>
+* Image on the UFO Footage credit goes to [Niek Doup](https://unsplash.com/@niekdoup). Link to the image is [Here](https://unsplash.com/photos/OuuMTjwEP-o)<br>
+* Image on the UFO Images, FAQ and Terms of Use page credit goes to [Peter Gargiulo](https://unsplash.com/@grndezyns). Link to the image is [Here](https://unsplash.com/photos/cGNCepznaV8)<br>
+* Image on the Contact Us page credit goes to [Dave Hoefler](https://unsplash.com/@davehoefler). Link to the image is [Here](https://unsplash.com/photos/rcE3_D-u2NE)<br>
 
 ### **6.2 Code** 
 
 * Majority of the code i used was Bootstrap. Their [main documentation](https://getbootstrap.com/docs/5.0/getting-started/introduction/) had lots of great information on how to use the framework.
-
-### **6.3 Acknowledgements**
 ___
 
-## **7. Contact**
+## **7. Contact Me**
 
 Feel free to contact me on any of the following channels:<br>
 
