@@ -13,6 +13,13 @@ body {
   overflow-x: hidden;
 }
 
+#about_section, 
+#contact_us_div,
+#ufo_search_content,
+#subscribe_div {
+  max-height: calc(100vh - 100px) !important;
+}
+
 /* Navbar */
 .navbar-brand {
   color: rgba(0, 0, 0, .55) !important;
