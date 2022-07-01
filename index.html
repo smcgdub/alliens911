@@ -72,38 +72,40 @@
 
   <!-- Hero Image -->
   <section id="hero_image_ufo_search" class="">
-    <div class="container">
-      <div class="row">
-        <!-- UFO Search Section -->
-        <div id="ufo_search_content" class="col-12 animate__animated animate__fadeIn">
-          <!-- Background Image Inserted Here -->
-          <h3 class="text-white text-center">- Search For UFO's -</h3>
-          <p class="text-white text-center">- Search engine powered by ARCHI Information Systems -</p>
-          <br>
-          <!-- My Search Form -->
-          <div class="mb-3">
-            <form id="search_form" class="form ">
-              <!-- Search Input -->
-              <label for="location_search_input" class="form-label text-white">- UFO Search -</label>
-              <!-- Input search field -->
-              <input class="form-control" id="location_search_input" aria-describedby="" value="">
-              <!-- Helper text -->
-              <div id="search_input_helper_text" class="form-text text-white"><em>- To find the locations of UFO
-                  sightings, please type in a British place name, postcode or co-ordinate. -</em>
-              </div>
-              <!-- This is a hidden password field that is necessary for the JS search function to run -->
-              <div class="form-group">
-                <input class="form-control" id="pwd" placeholder="Member Password or Leave Blank" value="" hidden />
-              </div>
+    <div id="search_content_div">
+      <div class="container">
+        <div class="row">
+          <!-- UFO Search Section -->
+          <div id="ufo_search_content" class="col-12 animate__animated animate__fadeIn">
+            <!-- Background Image Inserted Here -->
+            <h3 class="text-white text-center">- Search For UFO's -</h3>
+            <p class="text-white text-center">- Search engine powered by ARCHI Information Systems -</p>
+            <br>
+            <!-- My Search Form -->
+            <div class="mb-3">
+              <form id="search_form" class="form ">
+                <!-- Search Input -->
+                <label for="location_search_input" class="form-label text-white">- UFO Search -</label>
+                <!-- Input search field -->
+                <input class="form-control" id="location_search_input" aria-describedby="" value="">
+                <!-- Helper text -->
+                <div id="search_input_helper_text" class="form-text text-white"><em>- To find the locations of UFO
+                    sightings, please type in a British place name, postcode or co-ordinate. -</em>
+                </div>
+                <!-- This is a hidden password field that is necessary for the JS search function to run -->
+                <div class="form-group">
+                  <input class="form-control" id="pwd" placeholder="Member Password or Leave Blank" value="" hidden />
+                </div>
+            </div>
+            <!-- Search Button -->
+            <button id="ufo_search_button" type="submit" class="btn search_button ps-0 ms-auto"
+              onclick="callArchiSearch()">Search
+              <!-- <img id="ufo_search_button_image" src="/assets/images/ufo.png" alt=""> -->
+              <i class="fas fa-search"></i>
+            </button>
+            <!-- <a href="https://www.flaticon.com/free-icons/ufo" title="ufo icons">Ufo icons created by Adib Sulthon - Flaticon</a> -->
+            </form>
           </div>
-          <!-- Search Button -->
-          <button id="ufo_search_button" type="submit" class="btn search_button ps-0 ms-auto"
-            onclick="callArchiSearch()">Search
-            <!-- <img id="ufo_search_button_image" src="/assets/images/ufo.png" alt=""> -->
-            <i class="fas fa-search"></i>
-          </button>
-          <!-- <a href="https://www.flaticon.com/free-icons/ufo" title="ufo icons">Ufo icons created by Adib Sulthon - Flaticon</a> -->
-          </form>
         </div>
       </div>
     </div>

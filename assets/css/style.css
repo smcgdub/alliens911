@@ -145,6 +145,14 @@ body {
   height: 40px !important;
 }
 
+
+/* Search section scroll media query */
+@media screen and (max-height: 430px) {
+  #search_content_div {
+    overflow-y: scroll !important;
+  }
+}
+
 /* About Us Page */
 /* Hero Image */
 #hero_image_about_us {
@@ -463,6 +471,11 @@ body {
   }
 }
 
+@media screen and (max-height: 800px) {
+  #subscribe {
+    overflow-y: scroll !important;
+  }
+}
 
 /* ::-webkit-scrollbar {
   width: 10px;
