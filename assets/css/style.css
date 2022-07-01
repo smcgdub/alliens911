@@ -17,7 +17,8 @@ body {
 #contact_us_div,
 #ufo_search_content,
 #subscribe_div,
-#faq_section {
+#faq_section,
+#terms_of_use_section {
   max-height: calc(100vh - 100px) !important;
 }
 
@@ -402,13 +403,17 @@ body {
   padding-top: 80px;
 }
 
-@media screen and (max-width: 991px) {
-  #faq_section {
-    /* padding-top: 20px; */
-  }
+#faq_section {
+  overflow-y: scroll;
 }
 
-@media screen and (max-width: 769px) {
+/* @media screen and (max-width: 991px) {
+  #faq_section {
+    padding-top: 20px;
+  }
+} */
+
+/* @media screen and (max-width: 769px) {
   #faq_section {
     overflow-y: scroll !important;
   }
@@ -418,6 +423,11 @@ body {
   #faq_section {
     overflow-y: scroll !important;
   }
+} */
+
+/* Terms of use */
+#terms_of_use_section {
+  overflow-y: scroll;
 }
 
 /* Subscribe Page */
