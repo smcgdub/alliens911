@@ -172,6 +172,13 @@ body {
   font-size: 20px;
 }
 
+/* About us section scroll media query */
+@media screen and (max-height: 570px) {
+  #about_section {
+    overflow-y: scroll !important;
+  }
+}
+
 /* UFO Search Page*/
 /* Hero Image UFO Search Page*/
 #hero_image_ufo_search {
@@ -448,3 +455,18 @@ body {
     height: 100vh;
   }
 }
+
+
+/* ::-webkit-scrollbar {
+  width: 10px;
+  background: #fdc33a;
+} */
+
+/* ::-webkit-scrollbar-track {
+  background: #212529;
+} */
+
+/* ::-webkit-scrollbar-thumb {
+  background: #fdc33a;
+  height: 30px;
+} */
