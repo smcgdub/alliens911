@@ -22,10 +22,6 @@ body {
   max-height: calc(100vh - 100px) !important;
 }
 
-#contact_us_div {
-  min-height: 100px !important;
-}
-
 /* Navbar */
 .navbar-brand {
   color: rgba(0, 0, 0, .55) !important;
@@ -374,6 +370,17 @@ body {
 
 #contact_us_send_button {
   background-color: #fff;
+}
+
+/* #contact_us_div {
+  min-height: 100px !important;
+} */
+
+/* Contact us section scroll media query */
+@media screen and (max-height: 570px) {
+  #contact_us_div {
+    overflow-y: scroll !important;
+  }
 }
 
 /* Footer */
