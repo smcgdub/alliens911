@@ -477,10 +477,10 @@ body {
   }
 }
 
-/* ::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 10px;
-  background: #fdc33a;
-} */
+  /* background: #fdc33a; */
+}
 
 /* ::-webkit-scrollbar-track {
   background: #212529;
@@ -488,5 +488,4 @@ body {
 
 /* ::-webkit-scrollbar-thumb {
   background: #fdc33a;
-  height: 30px;
 } */
