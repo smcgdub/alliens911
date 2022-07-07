@@ -456,3 +456,10 @@ body {
 } */
 
 
+.navbar-yellow {
+  background-color: #fff !important;
+  color: #000 !important;
+}
+.disabled {
+  pointer-events: none;
+}

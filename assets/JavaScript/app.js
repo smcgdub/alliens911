@@ -1,5 +1,7 @@
 // Photo gallery JS
-baguetteBox.run('.cards-gallery', {animation: 'slideIn'});
+baguetteBox.run('.cards-gallery', {
+  animation: 'slideIn'
+});
 
 // UFO Search Function
 function callArchiSearch() {
@@ -30,3 +32,14 @@ function callArchiSearch() {
     // "https://www.archiuk.com/placenames"
   );
 }
+
+// JS for hamburger icon toggling
+$(".navbar-toggler").click(function (event, c) {
+  $(event.target).addClass("disabled");
+  $(".navbar").toggleClass("navbar-yellow"),
+    $(".nav-link").toggleClass("navbar-yellow");
+  $(".navbar-brand").toggleClass("navbar-yellow");
+  setTimeout(() => {
+    $(event.target).removeClass("disabled");
+  }, 500);
+})
