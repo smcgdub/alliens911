@@ -368,6 +368,10 @@ body {
   background-color: #fff;
 }
 
+.contact_us_bars::before {
+  color: rgba(0, 0, 0, .55) !important;
+}
+
 /* Contact us section scroll media query */
 @media screen and (max-height: 570px) {
   #contact_us_div {
@@ -450,3 +454,5 @@ body {
 /* ::-webkit-scrollbar-thumb {
   background: #fdc33a;
 } */
+
+

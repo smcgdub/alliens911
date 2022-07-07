@@ -39,7 +39,7 @@
       <!-- Navbar Bars Button -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class=""><i class="fas fa-bars text-red"></i></span>
+        <span class=""><i class="fas fa-bars contact_us_bars"></i></span>
       </button>
       <!-- Navbar Links -->
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -118,6 +118,20 @@
             <div class="mb-3">
               <label for="contact_us_email" class="form-label text-white h5">- Your E-mail -</label>
               <input type="email" name="email" class="form-control" id="contact_us_email" required>
+            </div>
+            <!-- Message Subject -->
+            <label for="contact_us_subject" class="form-label text-white h5">- Select Subject -</label>
+            <div class="input-group mb-3">
+              <!-- <label class="input-group-text" for="inputGroupSelect01">Options</label> -->
+              <select class="form-select" id="message_subject_options">
+                <option selected disabled>Click Here</option>
+                <option value="1">Login Problems</option>
+                <option value="2">Password Reset Not Received</option>
+                <option value="3">Cancelling Your Subscription</option>
+                <option value="4">Business License</option>
+                <option value="4">Media Enquiries</option>
+                <option value="4">Something Else</option>
+              </select>
             </div>
             <!-- Message -->
             <div class="mb-3">
