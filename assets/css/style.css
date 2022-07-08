@@ -370,6 +370,22 @@ body {
   color: #3cd070 !important;
 }
 
+/* UFO News Page */
+#news_item {
+  background-color: rgba(255, 255, 255, .15) !important;
+  backdrop-filter: blur(10px) !important;
+  border-radius: 2px 40px 2px 40px;
+  padding: 20px;
+}
+
+.news_link {
+  color: #fdc33a;
+}
+
+.news_link:hover {
+  color: #fdc33a;
+}
+
 /* Contact Us Page */
 /* Hero Image Contact Us Page*/
 #hero_image_contact_us {
@@ -396,21 +412,6 @@ body {
   #contact_us_div {
     overflow-y: scroll !important;
   }
-}
-
-/* Footer */
-.github_link {
-  text-decoration: none;
-  color: rgba(0, 0, 0, .55);
-}
-
-.github_link:hover {
-  text-decoration: none;
-  color: rgba(0, 0, 0, .55);
-}
-
-.footer-text {
-  color: rgba(0, 0, 0, .55);
 }
 
 /* FAQ Page */
@@ -474,18 +475,18 @@ body {
   background: #fdc33a;
 } */
 
-
-#news_item {
-  background-color: rgba(255, 255, 255, .15) !important;
-  backdrop-filter: blur(10px) !important;
-  border-radius: 2px 40px 2px 40px;
-  padding: 20px;
+/* Footer */
+.github_link {
+  text-decoration: none;
+  color: rgba(0, 0, 0, .55);
 }
 
-.news_link {
-  color: #fdc33a;
+.github_link:hover {
+  text-decoration: none;
+  color: rgba(0, 0, 0, .55);
 }
 
-.news_link:hover {
-  color: #fdc33a;
+.footer-text {
+  color: rgba(0, 0, 0, .55);
 }
+
