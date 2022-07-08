@@ -475,3 +475,17 @@ body {
 } */
 
 
+#news_item {
+  background-color: rgba(255, 255, 255, .15) !important;
+  backdrop-filter: blur(10px) !important;
+  border-radius: 2px 40px 2px 40px;
+  padding: 20px;
+}
+
+.news_link {
+  color: #fdc33a;
+}
+
+.news_link:hover {
+  color: #fdc33a;
+}
