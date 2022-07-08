@@ -109,6 +109,25 @@ body {
   transform-origin: bottom left;
 }
 
+/* Navbar blur effect on mobile */
+.navbar-blur {
+  color: rgba(255, 255, 255, .15) !important;
+  backdrop-filter: blur(3px) !important;
+}
+.disabled {
+  pointer-events: none;
+}
+
+/* Navbar text colour on blur */
+.navbar-text {
+  color: #fff !important;
+}
+
+/* Contact us navbar text colour on blur */
+.navbar-text-contact-us {
+  color: rgba(0, 0, 0, .55) !important;
+}
+
 /* Hero Image Index.html Page*/
 #hero_image {
   background-image: url(/assets/images/i_want_to_Believe_1.jpg);
@@ -456,10 +475,3 @@ body {
 } */
 
 
-.navbar-yellow {
-  background-color: #fff !important;
-  color: rgba(0, 0, 0, .55) !important;
-}
-.disabled {
-  pointer-events: none;
-}

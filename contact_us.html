@@ -177,6 +177,17 @@
         $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
       });
     });
+
+    // // // JS for hamburger icon toggling
+    $(".navbar-toggler").click(function (event, c) {
+      $(event.target).addClass("disabled");
+      $(".navbar").toggleClass("navbar-blur"),
+        $(".nav-link").toggleClass("navbar-text-contact-us");
+      $(".navbar-brand").toggleClass("navbar-text-contact-us");
+      setTimeout(() => {
+        $(event.target).removeClass("disabled");
+      }, 500);
+    })
   </script>
   <!-- Option 1: Bootstrap Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

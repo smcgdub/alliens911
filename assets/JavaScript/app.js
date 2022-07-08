@@ -34,12 +34,12 @@ function callArchiSearch() {
 }
 
 // JS for hamburger icon toggling
-$(".navbar-toggler").click(function (event, c) {
-  $(event.target).addClass("disabled");
-  $(".navbar").toggleClass("navbar-yellow"),
-    $(".nav-link").toggleClass("navbar-yellow");
-  $(".navbar-brand").toggleClass("navbar-yellow");
-  setTimeout(() => {
-    $(event.target).removeClass("disabled");
-  }, 500);
-})
+// $(".navbar-toggler").click(function (event, c) {
+//   $(event.target).addClass("disabled");
+//   $(".navbar").toggleClass("navbar-blur"),
+//     $(".nav-link").toggleClass("navbar-blue");
+//   $(".navbar-brand").toggleClass("navbar-blue");
+//   setTimeout(() => {
+//     $(event.target).removeClass("disabled");
+//   }, 500);
+// })

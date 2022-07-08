@@ -255,6 +255,17 @@
         $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
       });
     });
+
+    // // // JS for hamburger icon toggling
+    $(".navbar-toggler").click(function (event, c) {
+      $(event.target).addClass("disabled");
+      $(".navbar").toggleClass("navbar-blur"),
+        $(".nav-link").toggleClass("navbar-text");
+      $(".navbar-brand").toggleClass("navbar-text");
+      setTimeout(() => {
+        $(event.target).removeClass("disabled");
+      }, 500);
+    })
   </script>
   <!-- Video JS CDN -->
   <script src="https://vjs.zencdn.net/7.17.0/video.min.js"></script>
