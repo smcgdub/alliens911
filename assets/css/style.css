@@ -13,6 +13,10 @@ body {
   overflow-x: hidden;
 }
 
+.generic_grey_text {
+  color: rgba(0, 0, 0, .55);
+}
+
 #about_section, 
 #contact_us_div,
 #ufo_search_content,
@@ -231,10 +235,6 @@ body {
 /* Search Results Page */
 #search_results_section {
   padding-top: 80px !important;
-}
-
-.search_results_text {
-  color: rgba(0, 0, 0, .55);
 }
 
 #donate_img {
