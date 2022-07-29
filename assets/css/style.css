@@ -233,6 +233,10 @@ body {
   padding-top: 80px !important;
 }
 
+.search_results_text {
+  color: rgba(0, 0, 0, .55);
+}
+
 #donate_img {
   width: 20px !important;
 }
