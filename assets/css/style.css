@@ -17,6 +17,10 @@ body {
   color: rgba(0, 0, 0, .55);
 }
 
+.customer_links:hover {
+  color: #fdc33a !important;
+}
+
 #about_section, 
 #contact_us_div,
 #ufo_search_content,
@@ -504,4 +508,3 @@ body {
 .footer-text {
   color: rgba(0, 0, 0, .55);
 }
-

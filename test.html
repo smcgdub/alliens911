@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <title>Document</title>
+</head>
+
+<style>
+  .silverbranch-age-bg {
+    background: rgba(0, 0, 0, .7);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10000;
+    display: none;
+  }
+
+  .silverbranch-age-checker {
+    background-image: url('img/pwb-age-popup.jpg');
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 475px;
+    position: fixed;
+    z-index: 100000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) !important;
+    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+    position: absolute;
+  }
+
+  .yes-button {
+    position: relative;
+    top: 350px;
+    left: 70px;
+  }
+
+  .no-button {
+    position: relative;
+    top: 310px;
+    left: 225px;
+  }
+
+  .close-age-popup {
+    cursor: pointer
+  }
+</style>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+
+
+        <div id="sb-age-bg" class="silverbranch-age-bg">
+
+          <div class="silverbranch-age-checker">
+
+            <div class="yes-button"><a class="close-age-popup"><img
+                  src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/yes-btn.png" /></a></div>
+
+            <div class="no-button"><a href="https://giphy.com/explore/cat"><img
+                  src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/no-btn.png" /></a></div>
+
+          </div>
+
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+
+  <script>
+    function createCookie(name, value, days) {
+      var expires = "";
+      if (days) {
+        var date = new Date();
+        date.setTime(date.getTime() + (1 * 24 * 60 * 60 * 1000));
+        console.log(date);
+        expires = "; expires=" + date.toUTCString();
+      }
+      document.cookie = name + "=" + value + expires + "; path=/"; // affects all site pages
+    }
+
+    function readCookie(name) {
+
+      var nameEQ = name + "=";
+      var ca = document.cookie.split(';');
+      for (var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+      }
+
+      return null;
+
+    }
+
+    if (readCookie('silverbranch_age_check') === 'true') {
+
+    } else {
+
+      $('#sb-age-bg').show();
+
+    }
+
+    $('.close-age-popup').click(function () {
+
+      createCookie('silverbranch_age_check', 'true', 1);
+
+      $('.silverbranch-age-bg').hide();
+
+    });
+  </script>
+</body>
+
+</html>
