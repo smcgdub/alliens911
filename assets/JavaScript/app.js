@@ -53,3 +53,15 @@ function chooseMonthlyPlan() {
 function chooseYearlyPlan() {
   window.open("subscribe_y.html", "_self");
 }
+
+// Get users current location
+function getCurrentLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(function (position) {
+      var positionInfo = `${position.coords.latitude}, ${position.coords.longitude}`;
+      document.getElementById("location_search_input").value = positionInfo;
+    });
+  } else {
+    alert("Sorry, your browser does not support HTML5 geolocation.");
+  }
+}

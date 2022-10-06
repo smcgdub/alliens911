@@ -156,6 +156,17 @@ body {
   color: #000 !important;
 }
 
+#get_my_location_button {
+  background-color: #59656F;
+  background-color: transparent;
+  color: #fff !important;
+}
+
+#get_my_location_button:hover {
+  background-color: #fff;
+  color: #000 !important;
+}
+
 /* UFO Search Button Image*/
 #ufo_search_button_image {
   height: 40px !important;
