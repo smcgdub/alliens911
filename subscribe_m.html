@@ -24,7 +24,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <!-- External Css -->
   <link rel="stylesheet" href="/assets/css/style.css">
-  <title>UFO Search</title>
+  <title>Subscribe</title>
   <!-- JQuery -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -44,6 +44,7 @@
       <!-- Navbar Links -->
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ms-auto">
+          <a class="nav-link nav-link-search ms-auto hover-underline-animation" href="index.html">UFO Search</a>
           <a class="nav-link nav-link-search ms-auto hover-underline-animation" href="ufo_reports.html">UFO Reports</a>
           <a class="nav-link nav-link-search ms-auto hover-underline-animation" href="ufo_images.html">UFO Images</a>
           <a class="nav-link nav-link-search ms-auto hover-underline-animation" href="ufo_footage.html">UFO Footage</a>
@@ -71,40 +72,87 @@
   </nav>
 
   <!-- Hero Image -->
-  <section id="hero_image_ufo_search" class="">
-    <div id="search_content_div" class="w-100">
-      <div class="container">
+  <section id="subscribe_section" class="">
+    <div id="subscribe" class="animate__animated animate__fadeIn">
+      <div id="subscribe_div" class="container">
+        <!-- Select Payment Option Section -->
         <div class="row">
-          <!-- UFO Search Section -->
-          <div id="ufo_search_content" class="col-12 animate__animated animate__fadeIn">
-            <!-- Background Image Inserted Here -->
-            <h3 class="text-white text-center">- Search For UFO's -</h3>
-            <p class="text-white text-center">- Search engine powered by ARCHI Information Systems -</p>
-            <br>
-            <!-- My Search Form -->
-            <div class="mb-3">
-              <form id="search_form" class="form ">
-                <!-- Search Input -->
-                <label for="location_search_input" class="form-label text-white">- UFO Search -</label>
-                <!-- Input search field -->
-                <input class="form-control" id="location_search_input" aria-describedby="" value="">
-                <!-- Helper text -->
-                <div id="search_input_helper_text" class="form-text text-white"><em>- To find the locations of UFO
-                    sightings, please type in a British place name, postcode or co-ordinate. -</em>
-                </div>
-                <!-- This is a hidden password field that is necessary for the JS search function to run -->
-                <div class="form-group">
-                  <input class="form-control" id="pwd" placeholder="Member Password or Leave Blank" value="" hidden />
-                </div>
+          <div class="col-12">
+            <h4 class="text-white text-decoration-underline">Please Choose Your Payment Option
+            </h4>
+            <!-- Yearly Membership -->
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+              <label class="form-check-label text-white" for="flexRadioDefault1">
+                Monthly Membership: £8.25 plus VAT
+              </label>
             </div>
-            <!-- Search Button -->
-            <button id="ufo_search_button" type="submit" class="btn search_button ps-0 ms-auto"
-              onclick="callArchiSearch()">Search
-              <!-- <img id="ufo_search_button_image" src="/assets/images/ufo.png" alt=""> -->
-              <i class="fas fa-search"></i>
-            </button>
-            <!-- <a href="https://www.flaticon.com/free-icons/ufo" title="ufo icons">Ufo icons created by Adib Sulthon - Flaticon</a> -->
+            <!-- Monthly Membership -->
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
+                onclick="chooseYearlyPlan()">
+              <label class="form-check-label text-white" for="flexRadioDefault2">
+                Choose yearly membership plan
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <!-- Horizontal Line -->
+        <hr class="text-white">
+
+        <!-- Subscription Message -->
+        <div class="row">
+          <div class="col-12">
+            <h4 class="text-white text-decoration-underline">Subscriptions are handled through PayPal:</h4>
+            <p class="text-white"><strong>Important note.</strong> Please be aware that you may experience a short delay
+              (up to 10
+              seconds) upon completion of the paypal checkout before you are directed to the ARCHI member password setup
+              page.</p>
+            <p class="text-white">Once you have completed paypal's checkout please wait until you are re-directed to the
+              ARCHI member password setup page to set your password.
+            </p>
+          </div>
+        </div>
+
+        <!-- Horizontal Line -->
+        <hr class="text-white">
+
+        <!-- Order Summary Section -->
+        <div class="row">
+          <div class="col-12">
+            <h4 class="text-white text-decoration-underline">Your order</h4>
+            <table class="table text-white">
+              <thead>
+                <tr>
+                  <th class="text-white text-uppercase">Product</th>
+                  <th class="text-white text-uppercase">Price</th>
+                  <th class="text-white text-uppercase">VAT (20%)</th>
+                  <th class="text-white text-uppercase">Total</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th class="text-white">1x ARCHI UK monthly subscription (<em class="small">Recurring billing</em>):
+                  </th>
+                  <td class="text-white">£8.25</td>
+                  <td class="text-white">£1.65</td>
+                  <td class="text-white">£9.90</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <!-- Paypal subscribe button -->
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" class="text-start">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="hosted_button_id" value="NUMKDUJV7C8XS">
+              <input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_subscribeCC_LG.gif"
+                name="submit" alt="PayPal The safer, easier way to pay online!">
+              <img alt="" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
             </form>
+
+            <br>
+
           </div>
         </div>
       </div>

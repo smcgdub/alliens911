@@ -43,3 +43,13 @@ function callArchiSearch() {
 //     $(event.target).removeClass("disabled");
 //   }, 500);
 // })
+
+// Load monthly subscription page
+function chooseMonthlyPlan() {
+  window.open("subscribe_m.html", "_self");
+}
+
+// Load annual subscription page
+function chooseYearlyPlan() {
+  window.open("subscribe_y.html", "_self");
+}
