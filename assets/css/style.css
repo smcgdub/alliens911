@@ -297,6 +297,19 @@ body {
   background-size: cover;
 }
 
+/* UFO History */
+#hero_image_ufo_history {
+  background-image: url(/assets/images/ufo_history_image_1.jpg);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 80px;
+}
+
 /* UFO Images page */
 #ufo_image_section {
   background-image: url(/assets/images/ufo_images_background_2.jpg);
@@ -510,15 +523,3 @@ body {
 }
 
 
-/* UFO History */
-#hero_image_ufo_history {
-  background-image: url(/assets/images/ufo_history_image_1.jpg);
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-top: 80px;
-}
