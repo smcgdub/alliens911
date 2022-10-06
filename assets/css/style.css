@@ -508,3 +508,17 @@ body {
 .footer-text {
   color: rgba(0, 0, 0, .55);
 }
+
+
+/* UFO History */
+#hero_image_ufo_history {
+  background-image: url(/assets/images/ufo_history_image_1.jpg);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 80px;
+}
