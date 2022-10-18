@@ -26,7 +26,8 @@ body {
 #ufo_search_content,
 #subscribe_div,
 #faq_section,
-#terms_of_use_section {
+#terms_of_use_section,
+#ufo_history_section {
   max-height: calc(100vh - 100px) !important;
 }
 
@@ -462,6 +463,11 @@ body {
 
 #faq_section {
   overflow-y: scroll;
+}
+
+#ufo_history_section {
+  overflow-y: scroll;
+  background-color: rgba(52, 45, 45, 0.3) !important;
 }
 
 /* Terms of use */
