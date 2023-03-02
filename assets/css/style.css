@@ -21,7 +21,7 @@ body {
   color: #fdc33a !important;
 }
 
-#about_section, 
+#about_section,
 #contact_us_div,
 #ufo_search_content,
 #subscribe_div,
@@ -123,6 +123,7 @@ body {
   color: rgba(255, 255, 255, .15) !important;
   backdrop-filter: blur(3px) !important;
 }
+
 .disabled {
   pointer-events: none;
 }
@@ -527,5 +528,3 @@ body {
 .footer-text {
   color: rgba(0, 0, 0, .55);
 }
-
-
